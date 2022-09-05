@@ -1,0 +1,38 @@
+.btn-group-sm>.btn, .btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 1.0rem;
+}
+.btn-info {
+    color: #d0eaf5;
+    background-color: #6286ea;
+    border-color: #ced4da;
+}
+td,th {
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+.mailTitle {
+    background-color: #337AB7; height: 81px; color: white;
+    /*display: flex;
+    flex-wrap: wrap;*/
+    /*line-height: 81px;
+    padding-left: 20px;*/
+    padding-left: 20px;
+}
+.center {
+    align-self: center!important;
+}
+.mx-auto {
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+input.ng-touched.ng-invalid {border: 1px solid red;}
+.error{
+    color: red;
+}
