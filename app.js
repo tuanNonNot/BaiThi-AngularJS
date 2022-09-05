@@ -15,7 +15,7 @@ app.controller("myCtrl", function($scope){
     $scope.addProduct = function(){
         $scope.products.push($scope.newProduct);
         $scope.newProduct = {};
-        $scope.message = "New User Added successfully";
+        $scope.message = "New Product Added successfully";
     };
 
     $scope.selectProd = function(prod){
@@ -23,12 +23,12 @@ app.controller("myCtrl", function($scope){
     };
 
     $scope.editProduct = function(){
-        $scope.message = "User Edited successfully";
+        $scope.message = "Product Edited successfully";
     };
 
     $scope.deleteProd = function(){
         $scope.products.splice($scope.products.indexOf($scope.clickedUser));
-        $scope.message = "User Deleted successfully";
+        $scope.message = "Product Deleted successfully";
     };
 
     $scope.clearMessage = function(){

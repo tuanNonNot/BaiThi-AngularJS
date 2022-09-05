@@ -24,13 +24,14 @@ td,th {
 .center {
     align-self: center!important;
 }
-.mx-auto {
+/*.mx-auto {
     margin-left: auto!important;
     margin-right: auto!important;
-}
+}*/
 .col-centered{
     float: none;
     margin: 0 auto;
+    display: block;
 }
 input.ng-touched.ng-invalid {border: 1px solid red;}
 .error{
